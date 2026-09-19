@@ -19,6 +19,7 @@
       "kind": "pack",
       "category": "official",
       "version": "0.1.0",
+      "heat": 1,
       "description": "官方示例插件包。拷进宿主 plugins/ 后可用 #生态你好 / #生态菜单。",
       "source": {
         "type": "path",
