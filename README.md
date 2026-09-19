@@ -31,7 +31,7 @@
 |------|------|
 | [`packs/fengyun-hello`](packs/fengyun-hello) | 打招呼示例：`#生态菜单` `#生态你好` |
 
-装进宿主：把 `packs/fengyun-hello/plugins/*` 拷到 Fengyun Nexus 的 `plugins/`，或按控制台「生态」指引安装（宿主接好后）。
+装进宿主：控制台「插件商店」一键安装，或把 `packs/fengyun-hello/plugins/*` 拷到 Fengyun Nexus 的 `plugins/`。
 
 ## 投稿
 
