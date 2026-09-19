@@ -1,0 +1,11 @@
+{
+  "id": "eco.hello",
+  "name": "生态打招呼",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "hooks": ["onMessage", "onReady"],
+  "permissions": ["channel.send"],
+  "category": "demo",
+  "kind": "framework",
+  "adapterScope": "all"
+}

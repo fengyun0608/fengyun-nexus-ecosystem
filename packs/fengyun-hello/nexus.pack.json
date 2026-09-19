@@ -1,0 +1,18 @@
+{
+  "id": "fengyun.hello",
+  "name": "打招呼示例包",
+  "version": "0.1.0",
+  "description": "Fengyun Nexus 生态官方示例。装进宿主后发 #生态菜单 / #生态你好。",
+  "kind": "pack",
+  "writingStyles": ["simple-index"],
+  "plugins": [
+    {
+      "dir": "plugins/hello",
+      "id": "eco.hello",
+      "menu": ["#生态菜单", "#生态你好"]
+    }
+  ],
+  "combos": [
+    "单独练手即可；可与系统菜单、生图同装做截图联调"
+  ]
+}

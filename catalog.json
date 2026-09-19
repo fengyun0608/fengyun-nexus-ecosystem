@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-19",
+  "hub": {
+    "name": "Fengyun Nexus 生态",
+    "description": "插件包收录与官方示例。系统插件仍走 fengyun-system-plugins；本仓管生态收录与社区包。",
+    "gitcode": "https://gitcode.com/fengyunnb_admin/fengyun-nexus-ecosystem",
+    "github": "https://github.com/fengyun0608/fengyun-nexus-ecosystem"
+  },
+  "categories": [
+    { "id": "official", "label": "官方" },
+    { "id": "community", "label": "社区" },
+    { "id": "template", "label": "模板参考" }
+  ],
+  "entries": [
+    {
+      "id": "fengyun.hello",
+      "name": "打招呼示例包",
+      "kind": "pack",
+      "category": "official",
+      "version": "0.1.0",
+      "description": "官方示例插件包。拷进宿主 plugins/ 后可用 #生态你好 / #生态菜单。",
+      "source": {
+        "type": "path",
+        "path": "packs/fengyun-hello"
+      },
+      "menus": ["#生态菜单", "#生态你好"],
+      "homepage": ""
+    }
+  ]
+}
